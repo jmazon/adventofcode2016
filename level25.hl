@@ -1,0 +1,6 @@
+# hand-decompiled and optimized
+val = init + 2534
+loop {
+  for ( a = val; a != 0; a /= 2 )
+    out( a % 2 )
+}
